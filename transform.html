@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box,
+        .inner {
+            width: 150px;
+            height: 150px;
+            border: 2px solid khaki;
+        }
+        .box {
+            background-color: lightskyblue;
+        }
+        .inner {
+            background-color: coral;
+            transform: scale(0.6);
+            transform: rotate(45deg);
+            transform: translate(20px, 20px);
+            transform: scale(0.6) rotate(45deg) translate(60px, 40px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>How to Transform</h1>
+    <div class="container">
+        <div class="box">
+            <div class="inner">Box-1</div>
+        </div>
+        <div class="box">
+            <div class="inner">Box-2</div>
+        </div>
+        <div class="box">
+            <div class="inner">Box-3</div>
+        </div>
+    </div>
+</body>
+
+</html>
